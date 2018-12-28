@@ -32,14 +32,14 @@
     setting.leftLineColor = [UIColor colorWithRed:236/255.0 green:236/255.0 blue:236/255.0 alpha:1.0];
     setting.rightLineColor = [UIColor colorWithRed:236/255.0 green:236/255.0 blue:236/255.0 alpha:1.0];
     setting.lineHeight = 3;
-    setting.itemSize = 22;
+    setting.itemSize = 33;
     setting.numberOfItem = 2;
     setting.showStepCount = YES;
     setting.stepCount = 5;
     setting.stepSize = 6;
     setting.minValue = 0;
     setting.maxValue = 250;
-    setting.lineSpacing = 22;
+    setting.lineSpacing = 44;
     
     JJDoubleControlSilder *jjDoubleControlSilder = [[JJDoubleControlSilder alloc] initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 22) silderSetting:setting];
     [self.view addSubview:jjDoubleControlSilder];

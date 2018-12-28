@@ -155,7 +155,7 @@
         pan.view.userInteractionEnabled = YES;
     }
     
-    if (center.x + point.x >= 0 && center.x + point.x <= self.basicLine.frame.size.width) {
+    if (center.x + point.x - self.setting.lineSpacing>= 0 && center.x + point.x  - self.setting.lineSpacing<= self.basicLine.frame.size.width) {
         pan.view.center = CGPointMake(center.x + point.x, self.setting.itemSize/2);
         CGRect copyLineFrame = self.leftLine.frame;
         copyLineFrame.size.width = center.x + point.x - self.setting.lineSpacing;
@@ -182,7 +182,7 @@
         pan.view.userInteractionEnabled = YES;
     }
     
-    if (center.x + point.x >= 0 && center.x + point.x <= self.basicLine.frame.size.width) {
+    if (center.x + point.x - self.setting.lineSpacing>= 0 && center.x + point.x  - self.setting.lineSpacing<= self.basicLine.frame.size.width) {
         pan.view.center = CGPointMake(center.x + point.x, self.setting.itemSize/2);
         CGRect copyLineFrame = self.rightLine.frame;
         copyLineFrame.origin.x = center.x + point.x - self.setting.lineSpacing;
