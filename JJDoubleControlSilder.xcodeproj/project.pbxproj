@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		924E615121D47D9F003A1CFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E615021D47D9F003A1CFB /* AppDelegate.m */; };
+		924E615421D47D9F003A1CFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E615321D47D9F003A1CFB /* ViewController.m */; };
+		924E615721D47D9F003A1CFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924E615521D47D9F003A1CFB /* Main.storyboard */; };
+		924E615921D47DA0003A1CFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924E615821D47DA0003A1CFB /* Assets.xcassets */; };
+		924E615C21D47DA0003A1CFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924E615A21D47DA0003A1CFB /* LaunchScreen.storyboard */; };
+		924E615F21D47DA0003A1CFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E615E21D47DA0003A1CFB /* main.m */; };
+		924E616921D47DA1003A1CFB /* JJDoubleControlSilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E616821D47DA1003A1CFB /* JJDoubleControlSilderTests.m */; };
+		924E617421D47DA1003A1CFB /* JJDoubleControlSilderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E617321D47DA1003A1CFB /* JJDoubleControlSilderUITests.m */; };
+		924E618321D47DC1003A1CFB /* JJDoubleControlSilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E618221D47DC1003A1CFB /* JJDoubleControlSilder.m */; };
+		924E618621D48109003A1CFB /* JJDoubleControlSilderSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E618521D48109003A1CFB /* JJDoubleControlSilderSetting.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		924E616521D47DA1003A1CFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924E614421D47D9F003A1CFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924E614B21D47D9F003A1CFB;
+			remoteInfo = JJDoubleControlSilder;
+		};
+		924E617021D47DA1003A1CFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924E614421D47D9F003A1CFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924E614B21D47D9F003A1CFB;
+			remoteInfo = JJDoubleControlSilder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		924E614C21D47D9F003A1CFB /* JJDoubleControlSilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJDoubleControlSilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		924E614F21D47D9F003A1CFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		924E615021D47D9F003A1CFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		924E615221D47D9F003A1CFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		924E615321D47D9F003A1CFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		924E615621D47D9F003A1CFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		924E615821D47DA0003A1CFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		924E615B21D47DA0003A1CFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		924E615D21D47DA0003A1CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924E615E21D47DA0003A1CFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		924E616421D47DA1003A1CFB /* JJDoubleControlSilderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJDoubleControlSilderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		924E616821D47DA1003A1CFB /* JJDoubleControlSilderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJDoubleControlSilderTests.m; sourceTree = "<group>"; };
+		924E616A21D47DA1003A1CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924E616F21D47DA1003A1CFB /* JJDoubleControlSilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJDoubleControlSilderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		924E617321D47DA1003A1CFB /* JJDoubleControlSilderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJDoubleControlSilderUITests.m; sourceTree = "<group>"; };
+		924E617521D47DA1003A1CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924E618121D47DC1003A1CFB /* JJDoubleControlSilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJDoubleControlSilder.h; sourceTree = "<group>"; };
+		924E618221D47DC1003A1CFB /* JJDoubleControlSilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJDoubleControlSilder.m; sourceTree = "<group>"; };
+		924E618421D48109003A1CFB /* JJDoubleControlSilderSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJDoubleControlSilderSetting.h; sourceTree = "<group>"; };
+		924E618521D48109003A1CFB /* JJDoubleControlSilderSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJDoubleControlSilderSetting.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		924E614921D47D9F003A1CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924E616121D47DA1003A1CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924E616C21D47DA1003A1CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		924E614321D47D9F003A1CFB = {
+			isa = PBXGroup;
+			children = (
+				924E614E21D47D9F003A1CFB /* JJDoubleControlSilder */,
+				924E616721D47DA1003A1CFB /* JJDoubleControlSilderTests */,
+				924E617221D47DA1003A1CFB /* JJDoubleControlSilderUITests */,
+				924E614D21D47D9F003A1CFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		924E614D21D47D9F003A1CFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				924E614C21D47D9F003A1CFB /* JJDoubleControlSilder.app */,
+				924E616421D47DA1003A1CFB /* JJDoubleControlSilderTests.xctest */,
+				924E616F21D47DA1003A1CFB /* JJDoubleControlSilderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		924E614E21D47D9F003A1CFB /* JJDoubleControlSilder */ = {
+			isa = PBXGroup;
+			children = (
+				924E614F21D47D9F003A1CFB /* AppDelegate.h */,
+				924E615021D47D9F003A1CFB /* AppDelegate.m */,
+				924E615221D47D9F003A1CFB /* ViewController.h */,
+				924E615321D47D9F003A1CFB /* ViewController.m */,
+				924E615521D47D9F003A1CFB /* Main.storyboard */,
+				924E615821D47DA0003A1CFB /* Assets.xcassets */,
+				924E615A21D47DA0003A1CFB /* LaunchScreen.storyboard */,
+				924E615D21D47DA0003A1CFB /* Info.plist */,
+				924E615E21D47DA0003A1CFB /* main.m */,
+				924E618421D48109003A1CFB /* JJDoubleControlSilderSetting.h */,
+				924E618521D48109003A1CFB /* JJDoubleControlSilderSetting.m */,
+				924E618121D47DC1003A1CFB /* JJDoubleControlSilder.h */,
+				924E618221D47DC1003A1CFB /* JJDoubleControlSilder.m */,
+			);
+			path = JJDoubleControlSilder;
+			sourceTree = "<group>";
+		};
+		924E616721D47DA1003A1CFB /* JJDoubleControlSilderTests */ = {
+			isa = PBXGroup;
+			children = (
+				924E616821D47DA1003A1CFB /* JJDoubleControlSilderTests.m */,
+				924E616A21D47DA1003A1CFB /* Info.plist */,
+			);
+			path = JJDoubleControlSilderTests;
+			sourceTree = "<group>";
+		};
+		924E617221D47DA1003A1CFB /* JJDoubleControlSilderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				924E617321D47DA1003A1CFB /* JJDoubleControlSilderUITests.m */,
+				924E617521D47DA1003A1CFB /* Info.plist */,
+			);
+			path = JJDoubleControlSilderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		924E614B21D47D9F003A1CFB /* JJDoubleControlSilder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924E617821D47DA1003A1CFB /* Build configuration list for PBXNativeTarget "JJDoubleControlSilder" */;
+			buildPhases = (
+				924E614821D47D9F003A1CFB /* Sources */,
+				924E614921D47D9F003A1CFB /* Frameworks */,
+				924E614A21D47D9F003A1CFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJDoubleControlSilder;
+			productName = JJDoubleControlSilder;
+			productReference = 924E614C21D47D9F003A1CFB /* JJDoubleControlSilder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		924E616321D47DA1003A1CFB /* JJDoubleControlSilderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924E617B21D47DA1003A1CFB /* Build configuration list for PBXNativeTarget "JJDoubleControlSilderTests" */;
+			buildPhases = (
+				924E616021D47DA1003A1CFB /* Sources */,
+				924E616121D47DA1003A1CFB /* Frameworks */,
+				924E616221D47DA1003A1CFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				924E616621D47DA1003A1CFB /* PBXTargetDependency */,
+			);
+			name = JJDoubleControlSilderTests;
+			productName = JJDoubleControlSilderTests;
+			productReference = 924E616421D47DA1003A1CFB /* JJDoubleControlSilderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		924E616E21D47DA1003A1CFB /* JJDoubleControlSilderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924E617E21D47DA1003A1CFB /* Build configuration list for PBXNativeTarget "JJDoubleControlSilderUITests" */;
+			buildPhases = (
+				924E616B21D47DA1003A1CFB /* Sources */,
+				924E616C21D47DA1003A1CFB /* Frameworks */,
+				924E616D21D47DA1003A1CFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				924E617121D47DA1003A1CFB /* PBXTargetDependency */,
+			);
+			name = JJDoubleControlSilderUITests;
+			productName = JJDoubleControlSilderUITests;
+			productReference = 924E616F21D47DA1003A1CFB /* JJDoubleControlSilderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		924E614421D47D9F003A1CFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Joey Chan";
+				TargetAttributes = {
+					924E614B21D47D9F003A1CFB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					924E616321D47DA1003A1CFB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 924E614B21D47D9F003A1CFB;
+					};
+					924E616E21D47DA1003A1CFB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 924E614B21D47D9F003A1CFB;
+					};
+				};
+			};
+			buildConfigurationList = 924E614721D47D9F003A1CFB /* Build configuration list for PBXProject "JJDoubleControlSilder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 924E614321D47D9F003A1CFB;
+			productRefGroup = 924E614D21D47D9F003A1CFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				924E614B21D47D9F003A1CFB /* JJDoubleControlSilder */,
+				924E616321D47DA1003A1CFB /* JJDoubleControlSilderTests */,
+				924E616E21D47DA1003A1CFB /* JJDoubleControlSilderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		924E614A21D47D9F003A1CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924E615C21D47DA0003A1CFB /* LaunchScreen.storyboard in Resources */,
+				924E615921D47DA0003A1CFB /* Assets.xcassets in Resources */,
+				924E615721D47D9F003A1CFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924E616221D47DA1003A1CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924E616D21D47DA1003A1CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		924E614821D47D9F003A1CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924E615421D47D9F003A1CFB /* ViewController.m in Sources */,
+				924E618321D47DC1003A1CFB /* JJDoubleControlSilder.m in Sources */,
+				924E615F21D47DA0003A1CFB /* main.m in Sources */,
+				924E618621D48109003A1CFB /* JJDoubleControlSilderSetting.m in Sources */,
+				924E615121D47D9F003A1CFB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924E616021D47DA1003A1CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924E616921D47DA1003A1CFB /* JJDoubleControlSilderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924E616B21D47DA1003A1CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924E617421D47DA1003A1CFB /* JJDoubleControlSilderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		924E616621D47DA1003A1CFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924E614B21D47D9F003A1CFB /* JJDoubleControlSilder */;
+			targetProxy = 924E616521D47DA1003A1CFB /* PBXContainerItemProxy */;
+		};
+		924E617121D47DA1003A1CFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924E614B21D47D9F003A1CFB /* JJDoubleControlSilder */;
+			targetProxy = 924E617021D47DA1003A1CFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		924E615521D47D9F003A1CFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924E615621D47D9F003A1CFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		924E615A21D47DA0003A1CFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924E615B21D47DA0003A1CFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		924E617621D47DA1003A1CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		924E617721D47DA1003A1CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		924E617921D47DA1003A1CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZD55AG7HDA;
+				INFOPLIST_FILE = JJDoubleControlSilder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cjj.JJDoubleControlSilder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		924E617A21D47DA1003A1CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZD55AG7HDA;
+				INFOPLIST_FILE = JJDoubleControlSilder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cjj.JJDoubleControlSilder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		924E617C21D47DA1003A1CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJDoubleControlSilderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cjj.JJDoubleControlSilderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJDoubleControlSilder.app/JJDoubleControlSilder";
+			};
+			name = Debug;
+		};
+		924E617D21D47DA1003A1CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJDoubleControlSilderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cjj.JJDoubleControlSilderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJDoubleControlSilder.app/JJDoubleControlSilder";
+			};
+			name = Release;
+		};
+		924E617F21D47DA1003A1CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJDoubleControlSilderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cjj.JJDoubleControlSilderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJDoubleControlSilder;
+			};
+			name = Debug;
+		};
+		924E618021D47DA1003A1CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJDoubleControlSilderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cjj.JJDoubleControlSilderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJDoubleControlSilder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		924E614721D47D9F003A1CFB /* Build configuration list for PBXProject "JJDoubleControlSilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924E617621D47DA1003A1CFB /* Debug */,
+				924E617721D47DA1003A1CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924E617821D47DA1003A1CFB /* Build configuration list for PBXNativeTarget "JJDoubleControlSilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924E617921D47DA1003A1CFB /* Debug */,
+				924E617A21D47DA1003A1CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924E617B21D47DA1003A1CFB /* Build configuration list for PBXNativeTarget "JJDoubleControlSilderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924E617C21D47DA1003A1CFB /* Debug */,
+				924E617D21D47DA1003A1CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924E617E21D47DA1003A1CFB /* Build configuration list for PBXNativeTarget "JJDoubleControlSilderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924E617F21D47DA1003A1CFB /* Debug */,
+				924E618021D47DA1003A1CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 924E614421D47D9F003A1CFB /* Project object */;
+}
