@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "JJDoubleControlSilder.h"
 @interface ViewController ()
+@property (nonatomic , strong) UILabel *cheakValueLabel;
 
 @end
 
@@ -18,6 +19,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    UILabel *cheakValueLabel = [[UILabel alloc] init];
+    [self.view addSubview:cheakValueLabel];
+    cheakValueLabel.frame = CGRectMake(44, 360, self.view.frame.size.width - 88, 100);
+    [cheakValueLabel setFont:[UIFont systemFontOfSize:15]];
+    cheakValueLabel.numberOfLines = 4;
+    cheakValueLabel.text = [NSString stringWithFormat:@"设置最小默认值:0\n设置最大默认值:250\n左边的数值为:%@\n右边的数值为:%@",@"0",@"250"];
+//    cheakValueLabel.backgroundColor = [UIColor redColor];
     
     JJDoubleControlSilderSetting *setting = [[JJDoubleControlSilderSetting alloc] init];
     setting.basicLineColor = [UIColor colorWithRed:58/255.0 green:89/255.0 blue:105/255.0 alpha:1.0];
@@ -31,11 +39,12 @@
     setting.stepSize = 6;
     setting.minValue = 0;
     setting.maxValue = 250;
+    setting.lineSpacing = 22;
     
-    JJDoubleControlSilder *jjDoubleControlSilder = [[JJDoubleControlSilder alloc] initWithFrame:CGRectMake(22, 300, self.view.frame.size.width - 44, 22) silderSetting:setting];
+    JJDoubleControlSilder *jjDoubleControlSilder = [[JJDoubleControlSilder alloc] initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 22) silderSetting:setting];
     [self.view addSubview:jjDoubleControlSilder];
     jjDoubleControlSilder.selectValue = ^(CGFloat leftVelue, CGFloat rightVelue) {
-        
+        cheakValueLabel.text = [NSString stringWithFormat:@"设置最小默认值:0\n设置最大默认值:250\n左边的数值为:%@\n右边的数值为:%@",@(ceilf(leftVelue)) ,@(ceilf(rightVelue))];
     };
 }
 

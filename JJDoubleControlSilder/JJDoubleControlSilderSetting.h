@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic , assign) BOOL showStepCount;
 @property (nonatomic , assign) NSInteger stepCount;
 @property (nonatomic , assign) CGFloat stepSize;
-
+@property (nonatomic , assign) CGFloat lineSpacing;
 ///设置最小值
 @property (nonatomic , assign) CGFloat minValue;
 ///设置最大值
